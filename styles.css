@@ -159,6 +159,23 @@ li {
     background-color: var(--background-color-1);
 }
 
+.buy-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 128px 72px 72px;
+    padding: 32px;
+    gap: 24px;
+    border-radius: 50px;
+    border: 2px solid var(--text-color-2);
+    box-shadow: 2px 2px 20px 2px;
+    background: var(--background-color-2);
+}
+
+.buy-text h2 {
+    font-size: 24px;
+}
+
 a {
     color: var(--text-color-1);
     text-decoration: none;
